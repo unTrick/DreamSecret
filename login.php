@@ -11,8 +11,9 @@
 	margin: 0px auto;
 	padding: 0px auto;
 }
-@media only screen and (min-width: 900px) and (min-height: 960px) and (orientation: portrait){
-	body {
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		body {
 		width: 100%;
 		font-family: arial;
 	}
@@ -74,7 +75,7 @@
 		border-radius: 8px;
 		background-color: rgb(0,176,78);
 		border-color: transparent;
-		color: white;
+		color: 
 
 	}
 
@@ -84,6 +85,8 @@
 		color: red;
 	}
 
+
+}
 
 @media only screen and (min-width: 540px) and (min-height: 960px) and (orientation: portrait){
 	body {
@@ -148,7 +151,7 @@
 		border-radius: 8px;
 		background-color: rgb(0,176,78);
 		border-color: transparent;
-		color: white;
+		color: 
 
 	}
 
